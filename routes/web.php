@@ -22,7 +22,7 @@ Route::get('signup','UsersController@create')->name('signup');
 
 
 Route::resource('users', 'UsersController');
-
+//test
 
 
 Route::get('login', 'SessionsController@create')->name('login');
